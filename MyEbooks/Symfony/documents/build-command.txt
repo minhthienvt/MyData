@@ -1,0 +1,14 @@
+Build command:
+
+php app/console ms:cleanup-database
+
+php app/console doctrine:schema:update --force
+#php app/console init:acl
+php app/console sonata:admin:setup-acl
+php app/console msuser:init
+php app/console sonata:admin:generate-object-acl
+
+php app/console msnews:init
+
+php app/console assets:install web
+

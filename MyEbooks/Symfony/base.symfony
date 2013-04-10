@@ -1,0 +1,12 @@
+1./ DNS: http://base.symfony.sutrix.com
+2./ Working-space: smb://sm-php/www-training/symfony/base.symfony.sutrix.com
+3./ DB: http://sm-dev/pma
+        DB name: symfony_base
+        DB User/Pass: symfony
+4./ Svn: http://10.0.1.17/svn/symfony_base/trunk
+user : duy.nguy/duy.nguyen
+
+
+-------- INSTALL ------------------
+1. Get all code from Svn: http://10.0.1.17/svn/symfony_base/trunk
+2. Run all command in file documents/build-command.txt
